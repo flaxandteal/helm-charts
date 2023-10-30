@@ -179,6 +179,10 @@ serviceAccount:
   # If not set and create is true, a name is generated using the fullname template
   name:
 
+hook:
+  # Any configuration for the mongodb-checking hook
+  annotations: {}
+
 ## Configure the ingress object to hook into existing infastructure
 ### ref : http://kubernetes.io/docs/user-guide/ingress/
 ###
